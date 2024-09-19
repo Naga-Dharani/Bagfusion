@@ -1,0 +1,237 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/*------------------------- NEW IN ----------------------*/
+.row1col1
+{
+    height: 350px;
+    width: 400px;
+}
+.row1col1:hover
+{
+    content: url(../assets/media/images/img1hover.webp);
+}
+.row1col2
+{
+    height: 350px;
+    width: 400px;
+}
+.row1col2:hover
+{
+    content: url(../assets/media/images/img2hover.webp);
+}
+
+.row1col3
+{
+    height: 350px;
+    width: 400px;
+}
+.row1col3:hover
+{
+    content: url(../assets/media/images/img3hover.webp);
+}
+
+.row1col4
+{
+    height: 350px;
+    width: 400px;
+}
+.row1col4:hover
+{
+    content: url(../assets/media/images/img4hover.webp);
+}
+
+
+/*---------------------------------Shop By Category----------------------*/
+.Category
+{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+} 
+
+
+
+
+/*---------------------------------Shop Best Sellers----------------------*/
+
+.row2col1:hover
+{
+    content: url(../assets/media/images/img10hover.webp);
+}
+
+.row2col2:hover
+{
+    content: url(../assets/media/images/img11hover.webp);
+}
+.row2col3:hover
+{
+    content: url(../assets/media/images/img12hover.webp);
+}
+.row2col4:hover
+{
+    content: url(../assets/media/images/img13hover.webp);
+}
+.row3col1:hover
+{
+    content: url(../assets/media/images/img14hover.webp);
+}
+.row3col2:hover
+{
+    content: url(../assets/media/images/img15hover.webp);
+}
+.row3col3:hover
+{
+    content: url(../assets/media/images/img16hover.webp);
+}
+.row3col4:hover
+{
+    content: url(../assets/media/images/img17hover.webp);
+}
+.rounded
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.round1
+{
+    
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:black;
+    margin: 5px;
+    
+}
+.round2
+{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(216, 132, 102);
+    margin: 5px;
+
+}
+.round3
+{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: brown;
+    margin: 5px;
+
+}
+.Learn
+{
+    height: 50px;
+    width: 150px;
+}
+
+
+
+
+/*---------------  OUR MUSES -------------------*/
+
+.imghover
+{
+    transition: 1s;
+}
+.imghover:hover
+{
+  transform:scale(1.1);
+  z-index: 2;  
+}
+
+
+
+/*---------------  Footer Section 1- -------------------*/
+
+.footer1
+{
+    background-color: rgb(96, 21, 216);
+    padding: 20px;
+
+}
+
+
+/*---------------  Footer Section 2- -------------------*/
+
+.footer
+{
+    background-color: black;
+    padding: 100px;
+}
+
+.footcon
+{
+    margin: auto;
+    max-width: 2000px;
+
+    
+    
+
+}
+.footerrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col
+{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4
+{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+.footer-col ul li a
+{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300px;
+}
+
+.footer-col ul li a:hover
+{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.footerapps
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
